@@ -1,0 +1,43 @@
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+  <script src="https://raw.githubusercontent.com/nodeca/js-yaml/master/bin/js-yaml.js"></script>
+  <script src="jquery-3.7.1.js"></script>
+  <script src="jquery.columns.min.js"></script>
+  <script>
+    function drawTable(json_array){
+      $(document).ready(function() {
+        $('#columns').columns({
+          data:json_array, 
+          paginating:false,
+          schema:[
+            { "header":"Title","key":"title_translit"}
+            
+          ]
+        });
+      });
+    }
+    var jsonData = $.getJSON("test.json", function(data) {
+      var json = jsonData.responseJSON
+      for (entry in jsonData.responseJSON){
+          id = jsonData.responseJSON[entry]['id'];
+          title = jsonData.responseJSON[entry]['title'];
+
+          id_link = '<a href=./id/' + id + '>' + id + '</a>';
+          title_link = '<a href=./id/' + id + '>' + title + '</a>';
+
+          jsonData.responseJSON[entry]['id'] = id_link;
+          jsonData.responseJSON[entry]['title'] = title_link;
+      }
+      drawTable(json)
+
+    });
+
+
+  </script>
+</head>
+<body>
+  <div id="columns">
+  </div>
+</body>
+</html>

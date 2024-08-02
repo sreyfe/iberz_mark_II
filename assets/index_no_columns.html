@@ -1,0 +1,52 @@
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+  <script src="https://raw.githubusercontent.com/nodeca/js-yaml/master/bin/js-yaml.js"></script>
+  <script src="jquery-3.7.1.js"></script>
+  <script src="jquery.columns.min.js"></script>
+  <script>
+    var fuse = {}
+    const blooks = $.getJSON("test.json", function(json) {
+      
+      fuse = new Fuse(blooks.responseJSON, {
+        keys: ['title_translit']
+      })
+      getSearch(fuse);
+    });
+
+    function getSearch(){
+      searchKey = document.getElementById("search").value;
+      console.log(fuse)
+
+      console.log(fuse.search(searchKey));
+      tabulate(fuse.search(searchKey))
+    }
+
+    function tabulate(resultsArray){
+      table = document.getElementById("table");
+      
+      for (row in resultsArray){
+        dRow = resultsArray[row]
+        new_table += "<tr>" + "<td>" + dRow["item"]["title_translit"] + "</td>" + "<td>" + dRow["item"]["translator"][0]["name_translit"] + "</td>" + "</tr>"
+      }
+      table.inner_html = new_table
+    };
+
+    function beep(){
+      console.log("beep");
+    }
+  </script>
+</head>
+<body>
+   <input type="text" id="search" placeholder="Search.." >
+   <input id="s_button" type="button" value="search" onClick="getSearch()">
+  <div>
+    <table id="table">
+    <tr>
+      <th>Title</th>
+      <th>Translator</th>
+    </tr>
+  </table>
+  </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+---
+layout: none
+---
+<!doctype html>
+<html>
+<head>
+  <style>
+    #header{
+      border-radius: 30px;
+      border-width: 1px;
+      border-style: solid;
+      padding: 30px;
+      margin-left: 5%;
+      margin-right: 5%;
+      border-color: #32a852;
+      background-color: #fafcfb;
+      text-decoration: none;
+      color: black;
+    }
+
+  #header a, a:visited{
+    text-decoration: none;
+    color: black;
+  }
+
+    #menu_items {
+      text-align: right;
+    }
+
+    #header_title{
+      float: left;
+    }
+
+    .header_entry {
+      border-radius: 30px;
+      background-color: white;
+      padding: 20px;
+      border-color: #32a852;
+      border-width: 1px;
+      border-style: solid;
+      margin: 2px;
+    }
+  </style>
+  <meta charset="utf-8">
+</head>
+<body>
+  <div id="header">
+    <div>
+      <div id="header_title"><span class="header_entry"><a href="/">Iberz: a database of Yiddish translations</a></span></div>
+      <div id="menu_items">
+        <span class="header_entry"><a href=https://iberz.org>About</a></span>
+      </div>
+    </div>
+  </div>
+  {{content}}
+</body>
+</html>
+
+
+

@@ -1,0 +1,131 @@
+<html>
+<head>
+  <style>
+    #outer_boundary {
+    border-radius: 30px;
+    border-width: 1px;
+    padding: 20px;
+    border-color: #32a852;
+    margin: 5%;
+    background-color: #fafcfb;
+  }
+  th{
+    text-align: left;
+    width: 12.5%;
+    max-width: 12.5%;
+    min-width: 12.5%;
+    padding: 20px;
+  }
+
+  tr {
+    border-radius: 30px;
+    border-bottom: 1pt solid black;
+
+  }
+
+  td {
+    width: 12.5%;
+    max-width: 12.5%;
+    min-width: 12.5%;
+    padding: 20px;
+    word-wrap: break-word;
+  }
+
+  table {
+    border-spacing: 30px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+  }
+
+
+  #search {
+    background-color: white;
+    border-radius: 30px;
+    border-width: 1px;
+    width: 100%;
+    padding: 20px;
+    border-color: #32a852;
+    margin-right: 5%;
+  }
+  .entry {
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px;
+    border-color: #32a852;
+    border-width: 1px;
+    border-style: solid;
+    margin: 2px;
+  }
+
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+  <script src="https://raw.githubusercontent.com/nodeca/js-yaml/master/bin/js-yaml.js"></script>
+  <script src="jquery-3.7.1.js"></script>
+  <script src="jquery.columns.min.js"></script>
+  <script>
+    var fuse = {}
+    const blooks = $.getJSON("combined_2024_08_02.json", function(json) {
+      
+      fuse = new Fuse(blooks.responseJSON, {
+        keys: [ 'id',
+                'title',
+                'translator',
+                'year',
+                'place',
+                'publisher',
+                'source_title',
+                'language',
+                'source_id',
+                'author'
+                ],
+        threshold: 0.3
+      })
+      getSearch(fuse);
+    });
+
+    function getSearch(){
+      searchKey = document.getElementById("search").value;
+      console.log(fuse)
+
+      console.log(fuse.search(searchKey));
+      tabulate(fuse.search(searchKey))
+    }
+
+    function tabulate(resultsArray){
+      table = document.getElementById("table");
+      new_table = "    <tr><th>Title</th><th>Translator</th><th>Year</th><th>Place</th><th>Publisher</th><th>Source title</th><th>Source author</th><th>Source language</th></tr>"
+
+      for (row in resultsArray){
+        dRow = resultsArray[row]
+
+        new_table += "<tr>" 
+          + "<td><a href='http://127.0.0.1:4000/id/" + dRow["item"]["trans_id"] + "'>" + dRow["item"]["title"] + "</a>" + "</td>" 
+          + "<td>" + dRow["item"]["translator"] + "</td>"
+          + "<td>" + dRow["item"]["year"] + "</td>" 
+          + "<td>" + dRow["item"]["location"] + "</td>"
+          + "<td>" + dRow["item"]["publisher"] + "</td>"
+          + "<td><a href='http://127.0.0.1:4000/id/" + dRow["item"]["source_id"] + "'>" + dRow["item"]["source_title"] + "</a>" + "</td>" 
+          + "<td>" + dRow["item"]["author"] + "</td>"
+          + "<td>" + dRow["item"]["language"] + "</td>"
+          +"</tr>"
+      }
+      table.innerHTML = new_table
+    };
+
+    function beep(){
+      console.log("beep");
+    }
+  </script>
+</head>
+<body>
+   
+    <fieldset id="outer_boundary">
+      <input type="text" id="search" placeholder="Search.." oninput="getSearch()">
+      <br><br>
+    <table id="table">
+  </table>
+</div>
+</body>
+</html>
