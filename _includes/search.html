@@ -34,7 +34,7 @@
     border-collapse: collapse;
     table-layout: fixed;
     width: 100%;
-    min-width: 800px;
+    min-width: 1200px;
   }
 
   table a:visited {
@@ -106,12 +106,12 @@
         dRow = resultsArray[row]
 
         new_table += "<tr>" 
-          + "<td><a href='./id/" + dRow["item"]["trans_id"] + "'>" + dRow["item"]["title"] + "</a>" + "</td>" 
+          + "<td><a href='/id/" + dRow["item"]["trans_id"] + "'>" + dRow["item"]["title"] + "</a>" + "</td>" 
           + "<td>" + dRow["item"]["translator"] + "</td>"
           + "<td>" + dRow["item"]["year"] + "</td>" 
           + "<td>" + dRow["item"]["location"] + "</td>"
           + "<td>" + dRow["item"]["publisher"] + "</td>"
-          + "<td><a href='./id/" + dRow["item"]["source_id"] + "'>" + dRow["item"]["source_title"] + "</a>" + "</td>" 
+          + "<td><a href='/id/" + dRow["item"]["source_id"] + "'>" + dRow["item"]["source_title"] + "</a>" + "</td>" 
           + "<td>" + dRow["item"]["author"] + "</td>"
           + "<td>" + dRow["item"]["language"] + "</td>"
           +"</tr>"

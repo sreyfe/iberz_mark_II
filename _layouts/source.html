@@ -14,7 +14,7 @@ layout: default
     border-color: #32a852;
     margin: 5%;
     background-color: #fafcfb;
-    min-width: 800px;
+    min-width: 1200px;
   }
 
   #info {
@@ -127,7 +127,7 @@ layout: default
           <tr>
             <td style="font-weight: bold">id</td>
             <td>
-              <a href="https://w3id.org/iberz/id/{{page.id}}"><span class="entry"><img style="vertical-align: middle" src="/assets/icon.png" width="16">&nbsp;{{page.id}}</span></a>
+              <a href="/id/{{page.id}}"><span class="entry"><img style="vertical-align: middle" src="/assets/icon.png" width="16">&nbsp;{{page.id}}</span></a>
             </td>
           </tr>
           <tr>
@@ -174,7 +174,7 @@ layout: default
         {% for translation in site.data.main %}
         {% if translation.source[0] == page.id %}
         <tr>
-          <td><a href="http://127.0.0.1:4000/id/{{translation.id}}">{{translation.title_translit}}</a>
+          <td><a href="/id/">{{translation.title_translit}}</a>
           </td>
           <td>{{translation.translator[0].name_translit}}</td>
           <tr>
