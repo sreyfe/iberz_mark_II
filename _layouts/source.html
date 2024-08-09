@@ -174,7 +174,7 @@ layout: default
         {% for translation in site.data.main %}
         {% if translation.source[0] == page.id %}
         <tr>
-          <td><a href="/id/">{{translation.title_translit}}</a>
+          <td><a href="/id/{{translation.id}}">{{translation.title_translit}}</a>
           </td>
           <td>{{translation.translator[0].name_translit}}</td>
           <tr>
