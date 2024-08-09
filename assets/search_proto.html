@@ -24,9 +24,11 @@
   }
 
   td {
+    width: 12.5%;
     max-width: 12.5%;
-    min-width: 200px;
+    min-width: 12.5%;
     padding: 20px;
+    word-wrap: break-word;
   }
 
   table {
@@ -34,11 +36,6 @@
     border-collapse: collapse;
     table-layout: fixed;
     width: 100%;
-    min-width: 800px;
-  }
-
-  table a:visited {
-    color: blue;
   }
 
 
@@ -49,7 +46,7 @@
     width: 100%;
     padding: 20px;
     border-color: #32a852;
-    width: 95%;
+    margin-right: 5%;
   }
   .entry {
     border-radius: 30px;
@@ -64,18 +61,19 @@
   </style>
 
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
-  <script src="/assets/jquery-3.7.1.js"></script>
-  <script src="/assets/jquery.columns.min.js"></script>
+  <script src="https://raw.githubusercontent.com/nodeca/js-yaml/master/bin/js-yaml.js"></script>
+  <script src="jquery-3.7.1.js"></script>
+  <script src="jquery.columns.min.js"></script>
   <script>
     var fuse = {}
-    const blooks = $.getJSON("/assets/combined.json", function(json) {
+    const blooks = $.getJSON("combined_2024_08_02.json", function(json) {
       
       fuse = new Fuse(blooks.responseJSON, {
         keys: [ 'id',
                 'title',
                 'translator',
                 'year',
-                'location',
+                'place',
                 'publisher',
                 'source_title',
                 'language',
@@ -89,13 +87,10 @@
 
     function getSearch(){
       searchKey = document.getElementById("search").value;
-      if (searchKey == ""){
-      tabulate(fuse.search("."))
-      }
-    else{
+      console.log(fuse)
 
+      console.log(fuse.search(searchKey));
       tabulate(fuse.search(searchKey))
-      }
     }
 
     function tabulate(resultsArray){
@@ -106,12 +101,12 @@
         dRow = resultsArray[row]
 
         new_table += "<tr>" 
-          + "<td><a href='./id/" + dRow["item"]["trans_id"] + "'>" + dRow["item"]["title"] + "</a>" + "</td>" 
+          + "<td><a href='http://127.0.0.1:4000/id/" + dRow["item"]["trans_id"] + "'>" + dRow["item"]["title"] + "</a>" + "</td>" 
           + "<td>" + dRow["item"]["translator"] + "</td>"
           + "<td>" + dRow["item"]["year"] + "</td>" 
           + "<td>" + dRow["item"]["location"] + "</td>"
           + "<td>" + dRow["item"]["publisher"] + "</td>"
-          + "<td><a href='./id/" + dRow["item"]["source_id"] + "'>" + dRow["item"]["source_title"] + "</a>" + "</td>" 
+          + "<td><a href='http://127.0.0.1:4000/id/" + dRow["item"]["source_id"] + "'>" + dRow["item"]["source_title"] + "</a>" + "</td>" 
           + "<td>" + dRow["item"]["author"] + "</td>"
           + "<td>" + dRow["item"]["language"] + "</td>"
           +"</tr>"
@@ -124,11 +119,13 @@
     }
   </script>
 </head>
+<body>
    
     <fieldset id="outer_boundary">
-<div style="text-align:center">
       <input type="text" id="search" placeholder="Search.." oninput="getSearch()">
-</div>
       <br><br>
     <table id="table">
   </table>
+</div>
+</body>
+</html>

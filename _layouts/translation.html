@@ -4,95 +4,110 @@ layout: default
 
 
 <style>
-  #outer_div{
-    height: 80%;
-  }
+#outer_div{
+height: 80%;
+}
 
-  #outer_boundary {
-    border-radius: 30px;
-    border-width: 1px;
-    padding: 20px;
-    border-color: #32a852;
-    margin: 5%;
-    background-color: #fafcfb;
-  }
+#outer_boundary {
+border-radius: 30px;
+border-width: 1px;
+padding: 20px;
+border-color: #32a852;
+margin: 5%;
+background-color: #fafcfb;
+min-width: 800px;
+}
 
-  #info {
-    height: 20%;
-  }
+#info {
+height: 20%;
+}
 
-  #source_info {
-    width: 80%;
-    height: 100%;
-    padding-left: 5%;
-  }
+#source_info {
+width: 80%;
+height: 100%;
+padding-left: 5%;
+}
 
-  #editions {
-    border-radius: 30px;
-    border-width: 1px;
-    margin-left: 3%;
-    margin-right: 3%;
-    padding-left: 3%;
-    padding-right: 3%;
-    border-color: #32a852;
-    background-color: white;
-  }
+#editions {
+border-radius: 30px;
+border-width: 1px;
+margin-left: 3%;
+margin-right: 3%;
+padding-left: 3%;
+padding-right: 3%;
+border-color: #32a852;
+min-width: 700px; 
+background-color: white;
+overflow-wrap: break-word;
+}
 
-  #separator{
-    height: 10%;
-  }
+#editions td {
+max-width: 400px;
+}
 
-  #editions_table{
-    width: 100%
-  }
+#editions_table tr {
+border-radius: 30px;
+border-bottom: 1pt solid black;
+}
 
-  #infotable{
-    border-spacing: 30px;
-  }
+#separator{
+height: 10%;
+}
 
-  #title {
-    font-size: 30px;
-  }
+#editions_table{
+width: 100%;
+min-width: 400px;
+border-spacing: 10px;
+border-collapse: collapse;
+}
 
-  th{
-    text-align: left;
-  }
+#infotable{
+border-spacing: 30px;
+}
 
-  tr {
-    border-radius: 30px;
-    border: 4px solid;
-    padding: 5%;
-    border-color: #32a852;
-  }
+#title {
+font-size: 30px;
+}
+
+th{
+text-align: left;
+}
+
+tr {
+border-radius: 30px;
+padding: 5%;
+}
 
 
-  .h2 {
-    font-family: helvetica 
-  }
+.h2 {
+font-family: helvetica 
+}
 
-  .entry {
-    border-radius: 30px;
-    background-color: white;
-    padding: 10px;
-    border-color: #32a852;
-    border-width: 1px;
-    border-style: solid;
-    margin: 2px;
-  }
+.entry {
+border-radius: 30px;
+background-color: white;
+padding: 10px;
+border-color: #32a852;
+border-width: 1px;
+border-style: solid;
+margin: 2px;
+}
 
-  a {
-    text-decoration: none
-  }
 
-  a:visited{
-    color:blue;
-  }
 
-  legend {
-  max-width: 75%;
-  border-radius: 30px;
-  background-color: white;
-  padding: 5px;
+a {
+text-decoration: none
+}
+
+a:visited{
+color:blue;
+}
+
+legend {
+max-width: 75%;
+border-radius: 30px;
+background-color: white;
+padding: 5px;
 }
 
 </style>
@@ -105,7 +120,9 @@ layout: default
         <table id="infotable">
           <tr>
             <td style="font-weight: bold">id</td>
-            <td><img style="vertical-align: middle" src="/assets/icon.png" width="16">&nbsp;{{page.id}}</td>
+            <td>
+              <a href="https://w3id.org/iberz/id/{{page.id}}"><span class="entry"><img style="vertical-align: middle" src="/assets/icon.png" width="16">&nbsp;{{page.id}}</span></a>
+            </td>
           </tr>
           <tr>
             <td style="font-weight: bold">Translator</td>
@@ -116,14 +133,18 @@ layout: default
             </td>
           </tr>
           <tr>
-          	<td style="font-weight: bold">Source text</td>
-          	<td>
-			{% for source in site.data.source_2024_07_30 %}
-				{% if source.id == page.source[0] %}
-              <a href="http://127.0.0.1:4000/id/{{source.id}}"><span class="entry">{{source.title}}</span></a>
-				{% endif %}
-			{% endfor %}
-		</td>
+            <td style="font-weight: bold; white-space:nowrap; overflow: none;">Source text</td>
+            <td>
+              {% for source in site.data.source %}
+              {% if source.id == page.source[0] %}
+              {% if source.title == nil %}
+              <a href="/id/{{source.id}}"><span class="entry">Unknown source</span></a>
+              {% else %}
+              <a href="/id/{{source.id}}"><span class="entry">{{source.title}}</span></a>
+              {% endif %}
+              {% endif %}
+              {% endfor %}
+            </td>
           </tr>
         </table>
         <br>
@@ -140,16 +161,16 @@ layout: default
           <th>Year</th>
         </tr>
         {% for edition in page.editions %}
-        	<tr>
-        		<td>{{edition.type}}</td>
-        		<td>{{edition.title_translit}}</td>
-        		<td>{{edition.place}}</td>
-        		<td>{{edition.publisher_translit}}</td>
-        		<td>{{edition.year}}
-        	</tr>
-            {% endfor %}
-          </table>
-        </fieldset>
-      </fieldset>
-    </div>
+        <tr>
+          <td>{{edition.type}}</td>
+          <td>{{edition.title_translit}}</td>
+          <td>{{edition.place}}</td>
+          <td>{{edition.publisher_translit}}</td>
+          <td>{{edition.year}}</td>
+        </tr>
+          {% endfor %}
+      </table>
+    </fieldset>
+  </fieldset>
+</div>
 

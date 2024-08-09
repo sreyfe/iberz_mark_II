@@ -14,6 +14,7 @@ layout: default
     border-color: #32a852;
     margin: 5%;
     background-color: #fafcfb;
+    min-width: 800px;
   }
 
   #info {
@@ -113,13 +114,21 @@ layout: default
 
 <div id="outer_container">
   <fieldset id="outer_boundary">
-    <legend style="background-color:#fafcfb" id="title">{{page.title}}</legend>
+    <legend style="background-color:#fafcfb" id="title">
+      {% if page.title == nil %}
+      Unknown source
+      {% else %}
+      {{page.title}}
+      {% endif %}
+    </legend>
     <div id="info">
       <div id="source_info">
         <table id="infotable">
           <tr>
             <td style="font-weight: bold">id</td>
-            <td>{{page.id}}</td>
+            <td>
+              <a href="https://w3id.org/iberz/id/{{page.id}}"><span class="entry"><img style="vertical-align: middle" src="/assets/icon.png" width="16">&nbsp;{{page.id}}</span></a>
+            </td>
           </tr>
           <tr>
             <td style="font-weight: bold">Author</td>
@@ -162,7 +171,7 @@ layout: default
           <th>Title</th>
           <th>Translator</th>
         </tr>
-        {% for translation in site.data.main_2024_07_24 %}
+        {% for translation in site.data.main %}
         {% if translation.source[0] == page.id %}
         <tr>
           <td><a href="http://127.0.0.1:4000/id/{{translation.id}}">{{translation.title_translit}}</a>

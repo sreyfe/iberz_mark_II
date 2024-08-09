@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<style>
+  #outer_div{
+    height: 80%;
+  }
+
+  #outer_boundary {
+    border-radius: 30px;
+    border-width: 1px;
+    padding: 50px;
+    border-color: #32a852;
+    margin: 5%;
+    background-color: #fafcfb;
+    min-width: 800px;
+  }
+
+  #title{
+    font-size: 30px;
+}
+</style>
+
+<div id="outer_container">
+  <fieldset id="outer_boundary">
+    <legend id="title" style="background-color:#fafcfb" id="title">
+      About
+    </legend>
+    {{content}}
+</div>
+

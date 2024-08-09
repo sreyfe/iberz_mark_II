@@ -50,7 +50,7 @@
   wikidata_id: Q865902
 - id: ytds000005
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Agapov, S
@@ -73,7 +73,7 @@
   wikidata_id:
 - id: ytds000007
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Agnon, Shmuel Yosef
@@ -103,7 +103,7 @@
   wikidata_id:
 - id: ytds000010
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ahad Ha’am
@@ -158,7 +158,7 @@
   wikidata_id: Q7775505
 - id: ytds000015
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Almuly, Yitschak
@@ -188,7 +188,7 @@
   wikidata_id: Q1402523
 - id: ytds000018
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Amosov, S.
@@ -292,7 +292,7 @@
   wikidata_id: Q48940450
 - id: ytds000028
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Andriienko, Ivan Denisovich
@@ -322,7 +322,7 @@
   wikidata_id:
 - id: ytds000031
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Artsybashev, Mikhail
@@ -332,7 +332,7 @@
   wikidata_id:
 - id: ytds000032
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Artsybashev, Mikhail
@@ -422,7 +422,7 @@
   wikidata_id:
 - id: ytds000041
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Auerbach, Berthold
@@ -452,7 +452,7 @@
   wikidata_id:
 - id: ytds000044
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Averchenko, Arkady
@@ -604,7 +604,7 @@
   wikidata_id:
 - id: ytds000059
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Barto, Agniya
@@ -674,7 +674,7 @@
   wikidata_id: Q105745165
 - id: ytds000066
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Bebel, August
@@ -684,7 +684,7 @@
   wikidata_id:
 - id: ytds000067
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Bebel, August
@@ -724,17 +724,17 @@
   wikidata_id:
 - id: ytds000071
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Bell, G
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000072
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ben-Gurion, David
@@ -815,12 +815,12 @@
   wikidata_id:
 - id: ytds000080
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000081
@@ -855,7 +855,7 @@
   wikidata_id:
 - id: ytds000084
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ben-Zacai, Y
@@ -935,7 +935,7 @@
   wikidata_id:
 - id: ytds000092
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Bernstein, Eduard
@@ -955,12 +955,12 @@
   wikidata_id:
 - id: ytds000094
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Bernstein, S. 1884
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000095
@@ -975,12 +975,12 @@
   wikidata_id:
 - id: ytds000096
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Bialik, Hayyim Nahman
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000097
@@ -1025,7 +1025,7 @@
   wikidata_id:
 - id: ytds000101
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Bikkenin, Nail
@@ -1075,22 +1075,22 @@
   wikidata_id:
 - id: ytds000106
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Boccaccio, Giovanni
   language:
-    - unknown
+    -
   full_text:
   wikidata_id: Q16438
 - id: ytds000107
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Boccaccio, Giovanni
   language:
-    - unknown
+    -
   full_text:
   wikidata_id: Q16439
 - id: ytds000108
@@ -1098,7 +1098,7 @@
   title: אסתר
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
   full_text:
@@ -1186,12 +1186,12 @@
   wikidata_id:
 - id: ytds000117
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Bres, M.
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000118
@@ -1206,12 +1206,12 @@
   wikidata_id:
 - id: ytds000119
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Brocke, Wilhelm
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000120
@@ -1246,7 +1246,7 @@
   wikidata_id:
 - id: ytds000123
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Browder, Earl
@@ -1256,7 +1256,7 @@
   wikidata_id:
 - id: ytds000124
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Browder, Earl
@@ -1298,12 +1298,12 @@
   wikidata_id:
 - id: ytds000128
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Bruner, R.
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000129
@@ -1339,7 +1339,7 @@
   wikidata_id:
 - id: ytds000132
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Busch, Wilhelm
@@ -1359,7 +1359,7 @@
   wikidata_id:
 - id: ytds000134
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Busch, Wilhelm
@@ -1369,7 +1369,7 @@
   wikidata_id:
 - id: ytds000135
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Busch, Wilhelm
@@ -1399,7 +1399,7 @@
   wikidata_id: Q371227
 - id: ytds000138
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Byvalov, Evgeny
@@ -1452,24 +1452,24 @@
   title: תהילים
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
   full_text:
   wikidata_id: Q41064
 - id: ytds000144
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
     - French
   full_text:
   wikidata_id:
 - id: ytds000145
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Chavkin, L. B.
@@ -1571,7 +1571,7 @@
   wikidata_id: Q3767172
 - id: ytds000155
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Danzig, Abraham
@@ -1591,7 +1591,7 @@
   wikidata_id: Q1165434
 - id: ytds000157
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - De Amicis, Edmondo
@@ -1651,12 +1651,12 @@
   wikidata_id:
 - id: ytds000163
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Delevsky, J
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000164
@@ -1671,7 +1671,7 @@
   wikidata_id:
 - id: ytds000165
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Díaz, José
@@ -1721,12 +1721,12 @@
   wikidata_id: Q164974
 - id: ytds000170
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Dimtrov, Georgy
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000171
@@ -1761,7 +1761,7 @@
   wikidata_id:
 - id: ytds000174
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Zschokke, Heinrich
@@ -1854,7 +1854,7 @@
   title: מסכת מכות
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Aramaic
   full_text:
@@ -1884,7 +1884,7 @@
   title: קהלת רבה
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
   full_text:
@@ -1904,9 +1904,9 @@
   title: The New Testament
   title_translit:
   author:
-    - unknown
+    -
   language:
-    - unknown
+    -
   full_text:
   wikidata_id: Q18813
 - id: ytds000189
@@ -1931,7 +1931,7 @@
   wikidata_id:
 - id: ytds000191
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ehrenburg, Ilya
@@ -1971,17 +1971,17 @@
   wikidata_id: Q47536002
 - id: ytds000195
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Evald, D.
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000196
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ewald, Carl
@@ -1991,7 +1991,7 @@
   wikidata_id:
 - id: ytds000197
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ewald, Carl
@@ -2001,7 +2001,7 @@
   wikidata_id:
 - id: ytds000198
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ewald, Carl
@@ -2011,7 +2011,7 @@
   wikidata_id:
 - id: ytds000199
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ewald, Carl
@@ -2021,7 +2021,7 @@
   wikidata_id:
 - id: ytds000200
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ewald, Carl
@@ -2031,7 +2031,7 @@
   wikidata_id:
 - id: ytds000201
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ewald, Carl
@@ -2182,7 +2182,7 @@
   wikidata_id:
 - id: ytds000216
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Fezi-Zshelinskaya, Anna
@@ -2192,12 +2192,12 @@
   wikidata_id:
 - id: ytds000217
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Pierrot, M.
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000218
@@ -2272,7 +2272,7 @@
   wikidata_id:
 - id: ytds000225
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Forel, Auguste
@@ -2312,7 +2312,7 @@
   wikidata_id: Q19197287
 - id: ytds000229
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - France, Anatole
@@ -2362,7 +2362,7 @@
   wikidata_id: Q3141046
 - id: ytds000234
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - France, Anatole
@@ -2402,10 +2402,10 @@
   wikidata_id: Q42192878
 - id: ytds000238
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Russian
   full_text:
@@ -2432,12 +2432,12 @@
   wikidata_id:
 - id: ytds000241
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Froeschel, Georg
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000242
@@ -2674,7 +2674,7 @@
   wikidata_id: Q1382563
 - id: ytds000265
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Glantz, Fanye
@@ -2684,7 +2684,7 @@
   wikidata_id:
 - id: ytds000266
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Glazer, Leon
@@ -2817,7 +2817,7 @@
   title: בראשית
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
   full_text:
@@ -3066,7 +3066,7 @@
   wikidata_id: Q101199275
 - id: ytds000304
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Gross, Gustav
@@ -3079,7 +3079,7 @@
   title: תהלים
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
   full_text:
@@ -3151,7 +3151,7 @@
   title: תורה
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
   full_text:
@@ -3398,7 +3398,7 @@
   wikidata_id: Q56634268
 - id: ytds000337
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Hedin, Sven Anders
@@ -3408,7 +3408,7 @@
   wikidata_id:
 - id: ytds000338
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Hedin, Sven Anders
@@ -3418,7 +3418,7 @@
   wikidata_id:
 - id: ytds000339
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Hedin, Sven Anders
@@ -3428,7 +3428,7 @@
   wikidata_id:
 - id: ytds000340
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Hedin, Sven Anders
@@ -3439,7 +3439,7 @@
   wikidata_id:
 - id: ytds000341
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Heijermans, Herman
@@ -3459,12 +3459,12 @@
   wikidata_id: Q261565
 - id: ytds000343
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000344
@@ -3529,12 +3529,12 @@
   wikidata_id: Q1167856
 - id: ytds000350
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Hill, Anna
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000351
@@ -3549,7 +3549,7 @@
   wikidata_id:
 - id: ytds000352
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Hillquit, Morris
@@ -3569,7 +3569,7 @@
   wikidata_id:
 - id: ytds000354
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Hirschmann, Paul
@@ -3642,7 +3642,7 @@
   title: משנה
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
   full_text:
@@ -3659,7 +3659,7 @@
   wikidata_id:
 - id: ytds000363
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Yaroslavsky, Emelyan
@@ -3679,7 +3679,7 @@
   wikidata_id: Q11802435
 - id: ytds000365
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ibárruri, Dolores
@@ -3759,7 +3759,7 @@
   wikidata_id: Q1305319
 - id: ytds000373
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ilin, Mikhail
@@ -3769,7 +3769,7 @@
   wikidata_id:
 - id: ytds000374
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ilin, Mikhail
@@ -3789,7 +3789,7 @@
   wikidata_id:
 - id: ytds000376
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ilin, Mikhail
@@ -3839,7 +3839,7 @@
   wikidata_id: Q19046414
 - id: ytds000381
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Irkutov, Andrei
@@ -3921,12 +3921,12 @@
   wikidata_id:
 - id: ytds000389
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Jabotinsky, Vladimir
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000390
@@ -3934,7 +3934,7 @@
   title: תנ’’ך
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
     - Aramaic
@@ -4015,7 +4015,7 @@
   title: קהלת
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
   full_text:
@@ -4062,12 +4062,12 @@
   wikidata_id:
 - id: ytds000403
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Kassena
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000404
@@ -4102,7 +4102,7 @@
   wikidata_id:
 - id: ytds000407
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Katz, Leo
@@ -4122,10 +4122,10 @@
   wikidata_id:
 - id: ytds000409
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Lithuanian
     - Latvian
@@ -4173,7 +4173,7 @@
   wikidata_id:
 - id: ytds000414
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Kautsky, Karl
@@ -4213,7 +4213,7 @@
   wikidata_id:
 - id: ytds000418
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Kautsky, Karl
@@ -4223,13 +4223,13 @@
   wikidata_id:
 - id: ytds000419
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Kautsky, Karl
     - Loria, Achille
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000420
@@ -4284,7 +4284,7 @@
   wikidata_id:
 - id: ytds000425
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Key, Ellen
@@ -4304,7 +4304,7 @@
   wikidata_id: Q1165372
 - id: ytds000427
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Khvylya, Andrii
@@ -4314,7 +4314,7 @@
   wikidata_id:
 - id: ytds000428
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Küchler-Silberman, Lenah
@@ -4324,7 +4324,7 @@
   wikidata_id:
 - id: ytds000429
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Küchler-Silberman, Lenah
@@ -4387,7 +4387,7 @@
   title: श्रीमद्भगवद्गीता
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Sanskrit
   full_text:
@@ -4479,7 +4479,7 @@
   author:
     - Kopylenko, Oleksandr
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000445
@@ -4494,7 +4494,7 @@
   wikidata_id:
 - id: ytds000446
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Korczak, Janusz
@@ -4514,12 +4514,12 @@
   wikidata_id:
 - id: ytds000448
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Kordelya
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000449
@@ -4544,7 +4544,7 @@
   wikidata_id: Q20850908
 - id: ytds000451
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Korolenko, Vladimir
@@ -4594,7 +4594,7 @@
   wikidata_id:
 - id: ytds000456
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Kravchenko, Anna
@@ -4609,7 +4609,7 @@
   author:
     - Kravchinsky-Stepnyak, Sergei
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000458
@@ -4734,7 +4734,7 @@
   wikidata_id: Q3209557
 - id: ytds000470
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Krupskaya, Nadezhda
@@ -4804,12 +4804,12 @@
   wikidata_id: Q25658932
 - id: ytds000477
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - L’vova, B.
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000478
@@ -4867,7 +4867,7 @@
   title: פרקי אבות
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
   full_text:
@@ -4914,7 +4914,7 @@
   wikidata_id:
 - id: ytds000488
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Laskovi, Oles
@@ -4944,7 +4944,7 @@
   wikidata_id:
 - id: ytds000491
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Lavrenev, Boris
@@ -5074,7 +5074,7 @@
   wikidata_id: Q2975666
 - id: ytds000504
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Lenin, Vladimir
@@ -5126,7 +5126,7 @@
   wikidata_id: Q4309183
 - id: ytds000509
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Leskov, Nicolai
@@ -5146,7 +5146,7 @@
   wikidata_id: Q286611
 - id: ytds000511
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Levanda, Lev
@@ -5176,7 +5176,7 @@
   wikidata_id:
 - id: ytds000514
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Levin, Yehuda Leyb
@@ -5196,10 +5196,10 @@
   wikidata_id:
 - id: ytds000516
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
     - English
   full_text:
@@ -5236,7 +5236,7 @@
   wikidata_id: L'Histoire de la Commune de 1871
 - id: ytds000520
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Lyubchenko, Arkady
@@ -5246,7 +5246,7 @@
   wikidata_id:
 - id: ytds000521
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Lyubchenko, Arkady
@@ -5306,7 +5306,7 @@
   wikidata_id: Q2465752
 - id: ytds000527
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Long, William
@@ -5326,7 +5326,7 @@
   wikidata_id: Q3412135
 - id: ytds000529
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Loti, Pierre
@@ -5356,7 +5356,7 @@
   wikidata_id:
 - id: ytds000532
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Lunkevich, Valerian
@@ -5366,7 +5366,7 @@
   wikidata_id:
 - id: ytds000533
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Lunkevich, Valerian
@@ -5487,22 +5487,22 @@
   wikidata_id:
 - id: ytds000545
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000546
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000547
@@ -5567,7 +5567,7 @@
   wikidata_id: Q212898
 - id: ytds000553
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Manor, Alexander
@@ -5577,7 +5577,7 @@
   wikidata_id:
 - id: ytds000554
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Manuilsky, Dmitry
@@ -5587,7 +5587,7 @@
   wikidata_id:
 - id: ytds000555
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Mantegazza, Paolo
@@ -5607,7 +5607,7 @@
   wikidata_id: Q3985154
 - id: ytds000557
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Mantegazza, Paolo
@@ -5617,7 +5617,7 @@
   wikidata_id:
 - id: ytds000558
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Mantegazza, Paolo
@@ -5627,7 +5627,7 @@
   wikidata_id:
 - id: ytds000559
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Mantegazza, Paolo
@@ -5637,7 +5637,7 @@
   wikidata_id:
 - id: ytds000560
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Mantegazza, Paolo
@@ -5667,7 +5667,7 @@
   wikidata_id:
 - id: ytds000563
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Manuilsky, Dmitry
@@ -5697,7 +5697,7 @@
   wikidata_id: Q2891606
 - id: ytds000566
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Marchi, Emilio de
@@ -5737,7 +5737,7 @@
   wikidata_id:
 - id: ytds000570
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Margueritte, Victor
@@ -5870,7 +5870,7 @@
   wikidata_id: Q8486557
 - id: ytds000584
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Maslenikov, Mikhail
@@ -5880,12 +5880,12 @@
   wikidata_id:
 - id: ytds000585
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Mason, Zh.
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000586
@@ -5950,7 +5950,7 @@
   wikidata_id:
 - id: ytds000592
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - McDougall, William
@@ -6000,7 +6000,7 @@
   wikidata_id:
 - id: ytds000597
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Mendele Moykher Sforim
@@ -6020,7 +6020,7 @@
   wikidata_id:
 - id: ytds000599
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Mendès, Catulle
@@ -6050,7 +6050,7 @@
   wikidata_id: Q674832
 - id: ytds000602
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Mech, Sergey
@@ -6060,7 +6060,7 @@
   wikidata_id:
 - id: ytds000603
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Mech, Sergey
@@ -6120,7 +6120,7 @@
   wikidata_id:
 - id: ytds000609
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Mikoyan, Anastas
@@ -6180,7 +6180,7 @@
   wikidata_id: Q389933
 - id: ytds000615
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Molotov, Vyacheslav
@@ -6231,7 +6231,7 @@
   wikidata_id:
 - id: ytds000620
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Multatuli
@@ -6302,7 +6302,7 @@
   wikidata_id:
 - id: ytds000627
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Nemirovich-Danchenko, Vasily
@@ -6312,7 +6312,7 @@
   wikidata_id:
 - id: ytds000628
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Nyechayev, A.
@@ -6362,7 +6362,7 @@
   wikidata_id:
 - id: ytds000633
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Nikolskiy, Nikolay
@@ -6385,7 +6385,7 @@
   title: 'الف ليلة وليلة '
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Arabic
   full_text:
@@ -6412,7 +6412,7 @@
   wikidata_id:
 - id: ytds000638
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Nordau, Max Simon
@@ -6472,12 +6472,12 @@
   wikidata_id:
 - id: ytds000644
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Orlowsky, S. N.
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000645
@@ -6502,7 +6502,7 @@
   wikidata_id: Q11036624
 - id: ytds000647
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ovsianiko-Kulikovski, Dmitry
@@ -6562,7 +6562,7 @@
   wikidata_id:
 - id: ytds000653
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Pavlovich, Boris
@@ -6686,7 +6686,7 @@
   title: דרך ארץ זוטא
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
   full_text:
@@ -6713,12 +6713,12 @@
   wikidata_id:
 - id: ytds000668
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Pieck, Wilgelm
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000669
@@ -6763,7 +6763,7 @@
   wikidata_id:
 - id: ytds000673
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Plekhanov, Georgy
@@ -6823,7 +6823,7 @@
   wikidata_id:
 - id: ytds000679
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Polyansky, Y.
@@ -6833,7 +6833,7 @@
   wikidata_id:
 - id: ytds000680
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ponson du Terrail, Pierre Alexis de
@@ -6863,7 +6863,7 @@
   wikidata_id:
 - id: ytds000683
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Prevost, Marcel
@@ -6883,7 +6883,7 @@
   wikidata_id: Q2379553
 - id: ytds000685
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Przerwa-Tetmajer, Kazimierz
@@ -6964,7 +6964,7 @@
   wikidata_id: Q822290
 - id: ytds000693
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Radek, Karl
@@ -6974,12 +6974,12 @@
   wikidata_id:
 - id: ytds000694
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Radek, Karl
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000695
@@ -7029,7 +7029,7 @@
   author:
     - Reinheimer, Sophie
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000700
@@ -7104,7 +7104,7 @@
   wikidata_id:
 - id: ytds000707
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Roberts, Charels
@@ -7114,7 +7114,7 @@
   wikidata_id:
 - id: ytds000708
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Rocker, Rudolf
@@ -7124,7 +7124,7 @@
   wikidata_id:
 - id: ytds000709
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Rocker, Rudolf
@@ -7134,7 +7134,7 @@
   wikidata_id:
 - id: ytds000710
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Rocker, Rudolf
@@ -7164,7 +7164,7 @@
   wikidata_id: Q6979765
 - id: ytds000713
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Kulik, Ivan
@@ -7265,12 +7265,12 @@
   wikidata_id:
 - id: ytds000723
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ross, Heinrich
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000724
@@ -7379,7 +7379,7 @@
   wikidata_id: Q204208
 - id: ytds000734
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Rutenberg, Pinhas
@@ -7442,7 +7442,7 @@
   title: תלמוד
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
     - Aramaic
@@ -7453,7 +7453,7 @@
   title: מסכת ברכות
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
     - Aramaic
@@ -7491,7 +7491,7 @@
   wikidata_id: Q40174143
 - id: ytds000745
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Sarao, Matilda
@@ -7521,7 +7521,7 @@
   wikidata_id:
 - id: ytds000748
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Savelev, Leonid
@@ -7541,7 +7541,7 @@
   wikidata_id:
 - id: ytds000750
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Savvaty
@@ -7623,7 +7623,7 @@
   wikidata_id:
 - id: ytds000758
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Schnitzler, Arthur
@@ -7803,7 +7803,7 @@
   wikidata_id: Q662550
 - id: ytds000776
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Shalom, Shin
@@ -7843,7 +7843,7 @@
   wikidata_id:
 - id: ytds000780
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Sheynman, Mikhail
@@ -7943,10 +7943,10 @@
   wikidata_id:
 - id: ytds000790
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
   full_text:
@@ -8093,12 +8093,12 @@
   wikidata_id:
 - id: ytds000805
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Sinclair, Upton
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000806
@@ -8153,7 +8153,7 @@
   wikidata_id:
 - id: ytds000811
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Sokolicz, Antonina
@@ -8163,7 +8163,7 @@
   wikidata_id:
 - id: ytds000812
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Sokolow, Nahum
@@ -8303,7 +8303,7 @@
   wikidata_id:
 - id: ytds000826
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Stalin, Joseph
@@ -8343,7 +8343,7 @@
   wikidata_id:
 - id: ytds000830
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Staniukovich, Konstantin
@@ -8363,7 +8363,7 @@
   wikidata_id:
 - id: ytds000832
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Steinberg, Isaac
@@ -8383,7 +8383,7 @@
   wikidata_id:
 - id: ytds000834
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Steinberg, Judah
@@ -8503,7 +8503,7 @@
   wikidata_id: Q65526632
 - id: ytds000846
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Strindberg, August
@@ -8563,7 +8563,7 @@
   wikidata_id: Q737501
 - id: ytds000852
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Sukhov, A. A.
@@ -8573,7 +8573,7 @@
   wikidata_id:
 - id: ytds000853
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Svetlov, S. Y.
@@ -8644,7 +8644,7 @@
   wikidata_id:
 - id: ytds000860
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Tagore, Rabindranath
@@ -8675,47 +8675,47 @@
   wikidata_id: Q3226571
 - id: ytds000863
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000864
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000865
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000866
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000867
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Tenoromo, I.
@@ -8765,12 +8765,12 @@
   wikidata_id: Q106976799
 - id: ytds000872
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Thornton, James
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000873
@@ -8875,12 +8875,12 @@
   wikidata_id: Q1214091
 - id: ytds000883
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Tolstoy, Leo
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000884
@@ -8895,7 +8895,7 @@
   wikidata_id: Q146866
 - id: ytds000885
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Tolstoy, Leo
@@ -8945,12 +8945,12 @@
   wikidata_id: Q3273600
 - id: ytds000890
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Trotsky, Leon
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000891
@@ -8958,7 +8958,7 @@
   title: Краткий курс истории ВКП(б)
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Russian
   full_text:
@@ -9025,10 +9025,10 @@
   wikidata_id: Q326914
 - id: ytds000898
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Russian
   full_text:
@@ -9045,22 +9045,22 @@
   wikidata_id:
 - id: ytds000900
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ulyaninski, V.
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000901
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Ulyaninski, V.
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000902
@@ -9085,10 +9085,10 @@
   wikidata_id: Q60483037
 - id: ytds000904
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Russian
     - English
@@ -9096,7 +9096,7 @@
   wikidata_id:
 - id: ytds000905
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Vayzl, L.
@@ -9106,7 +9106,7 @@
   wikidata_id:
 - id: ytds000906
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Shevchenko, Taras
@@ -9239,7 +9239,7 @@
   wikidata_id: Q1918304
 - id: ytds000919
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Verne, Jules
@@ -9261,7 +9261,7 @@
   wikidata_id:
 - id: ytds000921
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Vipper, Robert
@@ -9271,7 +9271,7 @@
   wikidata_id:
 - id: ytds000922
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Vishnia, Ostap
@@ -9512,7 +9512,7 @@
   wikidata_id: Q2426986
 - id: ytds000946
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Wygodzki, Stanisław
@@ -9532,7 +9532,7 @@
   wikidata_id:
 - id: ytds000948
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Yaari, Meir
@@ -9574,7 +9574,7 @@
   wikidata_id:
 - id: ytds000952
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Zabila, Natalia
@@ -9594,12 +9594,12 @@
   wikidata_id:
 - id: ytds000954
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Zalezhsky, Vladimir
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000955
@@ -9647,7 +9647,7 @@
   title: עין יעקב
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
     - Aramaic
@@ -9655,12 +9655,12 @@
   wikidata_id: Q5349597
 - id: ytds000960
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000961
@@ -9775,7 +9775,7 @@
   wikidata_id: Q942810
 - id: ytds000972
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Zubov, Nikolai
@@ -9838,19 +9838,19 @@
   title: Braunbuch über Reichstagsbrand und Hitlerterror
   title_translit:
   author:
-    - unknown
+    -
   language:
     - German
   full_text:
   wikidata_id: Q19902798
 - id: ytds000979
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000980
@@ -9868,7 +9868,7 @@
   title: Конституция СССР 1936 г.
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Russian
   full_text:
@@ -9885,20 +9885,20 @@
   wikidata_id:
 - id: ytds000983
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000984
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
     - German
   full_text:
@@ -9908,7 +9908,7 @@
   title: מחזור כל בו
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
   full_text:
@@ -9928,7 +9928,7 @@
   title: New Testament
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Greek
   full_text:
@@ -9938,7 +9938,7 @@
   title: Резолюция XVIII конференции ВКП(б)
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Russian
   full_text: http://docs.historyrussia.org/ru/nodes/246552-rezolyutsiya-xviii-konferentsii-vkp-b-18-fevralya-1941-g-o-zadachah-partiynyh-organizatsiy-v-oblasti-promyshlennosti-i-transporta-izvlechenie#mode/inspect/page/1/zoom/4
@@ -9958,29 +9958,29 @@
   title: ספר הישר
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
   full_text:
   wikidata_id: Q970053
 - id: ytds000991
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000992
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds000993
@@ -10186,7 +10186,7 @@
   wikidata_id: Q7245749
 - id: ytds001013
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Bernstein, Leon
@@ -10206,12 +10206,12 @@
   wikidata_id:
 - id: ytds001015
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Boccaccio, Giovanni
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds001016
@@ -10426,7 +10426,7 @@
   wikidata_id:
 - id: ytds001037
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Davidovitch, David
@@ -10559,7 +10559,7 @@
   title: מדרש רבה
   title_translit:
   author:
-    - unknown
+    -
   language:
     - Hebrew
   full_text:
@@ -10732,7 +10732,7 @@
   author:
     - France, Anatole
   language:
-    - unknown
+    -
   full_text:
   wikidata_id: Q3221974
 - id: ytds001068
@@ -10868,7 +10868,7 @@
   wikidata_id:
 - id: ytds001081
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Kropotkin, Peter
@@ -11039,7 +11039,7 @@
   wikidata_id:
 - id: ytds001098
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Horodezky, Samuel
@@ -11062,7 +11062,7 @@
   title: Let God be True
   title_translit:
   author:
-    - unknown
+    -
   language:
     - English
   full_text:
@@ -11412,7 +11412,7 @@
   wikidata_id: Q114444227
 - id: ytds001135
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Maeterlinck, Maurice
@@ -11542,7 +11542,7 @@
   wikidata_id: Q11802453
 - id: ytds001148
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Nordau, Max Simon
@@ -11552,12 +11552,12 @@
   wikidata_id:
 - id: ytds001149
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds001150
@@ -11814,7 +11814,7 @@
   wikidata_id:
 - id: ytds001175
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Rocker, Rudolf
@@ -12019,7 +12019,7 @@
   author:
     - Seton, Ernest Thompson
   language:
-    - unknown
+    -
   full_text:
   wikidata_id:
 - id: ytds001196
@@ -12057,7 +12057,7 @@
   title: Der Process von Tisza-Eszlar, verhandelt in Nyiregyhaza im Jahre 1883
   title_translit:
   author:
-    - unknown
+    -
   language:
     - German
   full_text:
@@ -12104,7 +12104,7 @@
   wikidata_id: Q16386559
 - id: ytds001204
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Solomon-Maaravi, Toni
@@ -12134,7 +12134,7 @@
   wikidata_id:
 - id: ytds001207
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Sprinzak, Joseph
@@ -12276,7 +12276,7 @@
   wikidata_id:
 - id: ytds001221
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Tchernowitz-Avidar, Yemimah
@@ -12427,7 +12427,7 @@
   wikidata_id: Q2975500
 - id: ytds001236
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Golomb-Grinberg, Ala
@@ -12437,7 +12437,7 @@
   wikidata_id:
 - id: ytds001237
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Turkow, Zygmunt
@@ -12698,7 +12698,7 @@
   wikidata_id:
 - id: ytds001263
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Wilde, Oscar
@@ -12758,10 +12758,10 @@
   wikidata_id: Q1138346
 - id: ytds001269
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
-    - unknown
+    -
   language:
     - German
   full_text:
@@ -12797,7 +12797,7 @@
   wikidata_id:
 - id: ytds001272
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Sakhatka, Khayim
@@ -12857,7 +12857,7 @@
   wikidata_id:
 - id: ytds001278
   slug:
-  title: unknown
+  title:
   title_translit:
   author:
     - Dubnow, Simon

@@ -39,13 +39,13 @@ plugins:
 page_gen-dirs: true 
 
 page_gen:
-- data: main_2024_07_24
+- data: main
   template: translation
   name: id
   title: title
   dir: id 
   index_files: true 
-- data: source_2024_07_30
+- data: source
   template: source
   name: id
   title: title
