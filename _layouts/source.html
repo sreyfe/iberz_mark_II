@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if page.title == nil %}
+<title>Unknown source</title>
+Unknown source
+{% else %}
+<title>{{page.title}}</title>
+{% endif %}
 <style>
   #outer_div{
     height: 80%;
@@ -111,6 +117,9 @@ layout: default
 }
 
 </style>
+
+
+
 
 <div id="outer_container">
   <fieldset id="outer_boundary">
