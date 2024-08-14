@@ -622,37 +622,6 @@
   source:
   - ytds000019
   year: 1914
-- id: ytd000020
-  slug: Mayselekh_mit_ilustratsyes_Der
-  title: 'מעשהלעך : מיט אילוסטראציעס'
-  title_translit: 'Mayselekh: mit ilustratsyes'
-  translator:
-  - name:
-    name_translit: Der Nister
-    wikidata:
-  editions:
-  - type: book
-    title: 'מעשהלעך : מיט אילוסטראציעס'
-    title_translit: 'Mayselekh: mit ilustratsyes'
-    publisher:
-    publisher_translit: Kultur lige
-    place: Warsaw
-    year: 1921
-    volumes:
-    - number:
-      date:
-      first_page:
-      last_page:
-      source_db: nybc
-      source_db_id: nybc205768
-      notes:
-    notes:
-  keywords:
-  -
-  notes:
-  source:
-  - ytds000020
-  year: 1921
 - id: ytd000021
   slug: Di_shneymalke_a_Der
   title: 'די שניי-מלכה : א מעשה אין זיבן מעשהלעך'
@@ -3740,193 +3709,18 @@
   - name:
     name_translit: Lehrer, L.
     wikidata:
-  editions:
-  - type: book
-    title: די הויפט שטרעמונגען אין דער ליטעראטור פון ניינצענטען יארהונדערט
-    title_translit: Di hoypt shtremungen in der literatur fun nayntsenten yorhundert
-    publisher:
-    publisher_translit: Maks Mayzel
-    place: New York
-    year: 1918
-    volumes:
-    - number: '2'
-      date:
-      first_page:
-      last_page:
-      source_db: nybc
-      source_db_id: nybc201851
-      notes:
-    - number: '3'
-      date:
-      first_page:
-      last_page:
-      source_db: nybc
-      source_db_id: nybc201852
-      notes:
-    notes:
-  keywords:
-  -
-  notes:
-  source:
-  - ytds000113
-  year: 1918
-- id: ytd000117
-  slug: Di_hoypt_shtremungen_Broydes
-  title: די הויפט שטרעמונגען אין דער ליטעראטור פון ניינצענטען יארהונדערט
-  title_translit: Di hoypt shtremungen in der literatur fun nayntsenten yorhundert
-  translator:
   - name:
     name_translit: Broydes, Akiva
     wikidata:
-  editions:
-  - type: book
-    title: די הויפט שטרעמונגען אין דער ליטעראטור פון ניינצענטען יארהונדערט
-    title_translit: Di hoypt shtremungen in der literatur fun nayntsenten yorhundert
-    publisher:
-    publisher_translit: Maks Mayzel
-    place: New York
-    year: 1918
-    volumes:
-    - number: '8'
-      date:
-      first_page:
-      last_page:
-      source_db: nybc
-      source_db_id: nybc201857
-      notes:
-    - number: '9'
-      date:
-      first_page:
-      last_page:
-      source_db: nybc
-      source_db_id: nybc201858
-      notes:
-    notes:
-  keywords:
-  -
-  notes:
-  source:
-  - ytds000113
-  year: 1918
-- id: ytd000118
-  slug: Di_hoypt_shtremungen_Morris
-  title: די הויפט שטרעמונגען אין דער ליטעראטור פון ניינצענטען יארהונדערט
-  title_translit: Di hoypt shtremungen in der literatur fun nayntsenten yorhundert
-  translator:
   - name:
     name_translit: Morris Cohen, 1842-1929
     wikidata:
-  editions:
-  - type: book
-    title: די הויפט שטרעמונגען אין דער ליטעראטור פון ניינצענטען יארהונדערט
-    title_translit: Di hoypt shtremungen in der literatur fun nayntsenten yorhundert
-    publisher:
-    publisher_translit: Maks Mayzel
-    place: New York
-    year: 1918
-    volumes:
-    - number: '11'
-      date:
-      first_page:
-      last_page:
-      source_db: nybc
-      source_db_id: nybc201854
-      notes:
-    notes:
-  keywords:
-  -
-  notes:
-  source:
-  - ytds000113
-  year: 1918
-- id: ytd000119
-  slug: Di_hoypt_shtremungen_Grinfeld
-  title: די הויפט שטרעמונגען אין דער ליטעראטור פון ניינצענטען יארהונדערט
-  title_translit: Di hoypt shtremungen in der literatur fun nayntsenten yorhundert
-  translator:
   - name:
     name_translit: Grinfeld, Yankev
     wikidata:
-  editions:
-  - type: book
-    title: די הויפט שטרעמונגען אין דער ליטעראטור פון ניינצענטען יארהונדערט
-    title_translit: Di hoypt shtremungen in der literatur fun nayntsenten yorhundert
-    publisher:
-    publisher_translit: Maks Mayzel
-    place: New York
-    year: 1918
-    volumes:
-    - number: '6'
-      date:
-      first_page:
-      last_page:
-      source_db: nybc
-      source_db_id: nybc201855
-      notes:
-    - number: '7'
-      date:
-      first_page:
-      last_page:
-      source_db: nybc
-      source_db_id: nybc201856
-      notes:
-    - number: '10'
-      date:
-      first_page:
-      last_page:
-      source_db: nybc
-      source_db_id: nybc201859
-      notes:
-    notes:
-  keywords:
-  -
-  notes:
-  source:
-  - ytds000113
-  year: 1918
-- id: ytd000120
-  slug: Di_hoypt_shtremungen_Rivkin
-  title: די הויפט שטרעמונגען אין דער ליטעראטור פון ניינצענטען יארהונדערט
-  title_translit: Di hoypt shtremungen in der literatur fun nayntsenten yorhundert
-  translator:
   - name:
     name_translit: Rivkin, B.
     wikidata:
-  editions:
-  - type: book
-    title: די הויפט שטרעמונגען אין דער ליטעראטור פון ניינצענטען יארהונדערט
-    title_translit: Di hoypt shtremungen in der literatur fun nayntsenten yorhundert
-    publisher:
-    publisher_translit: Maks Mayzel
-    place: New York
-    year: 1918
-    volumes:
-    - number: '5'
-      date:
-      first_page:
-      last_page:
-      source_db: nybc
-      source_db_id: nybc201854
-      notes:
-    - number: '4'
-      date:
-      first_page:
-      last_page:
-      source_db: nybc
-      source_db_id: nybc201853
-      notes:
-    notes:
-  keywords:
-  -
-  notes:
-  source:
-  - ytds000113
-  year: 1918
-- id: ytd000121
-  slug: Di_hoypt_shtremungen_Liberman
-  title: די הויפט שטרעמונגען אין דער ליטעראטור פון ניינצענטען יארהונדערט
-  title_translit: Di hoypt shtremungen in der literatur fun nayntsenten yorhundert
-  translator:
   - name:
     name_translit: Liberman, Khayim
     wikidata:
@@ -3945,6 +3739,76 @@
       last_page:
       source_db: nybc
       source_db_id: nybc201850
+      notes:
+    - number: '2'
+      date:
+      first_page:
+      last_page:
+      source_db: nybc
+      source_db_id: nybc201851
+      notes:
+    - number: '3'
+      date:
+      first_page:
+      last_page:
+      source_db: nybc
+      source_db_id: nybc201852
+      notes:
+    - number: '4'
+      date:
+      first_page:
+      last_page:
+      source_db: nybc
+      source_db_id: nybc201853
+      notes:
+    - number: '5'
+      date:
+      first_page:
+      last_page:
+      source_db: nybc
+      source_db_id: nybc201854
+      notes:
+    - number: '6'
+      date:
+      first_page:
+      last_page:
+      source_db: nybc
+      source_db_id: nybc201855
+      notes:
+    - number: '7'
+      date:
+      first_page:
+      last_page:
+      source_db: nybc
+      source_db_id: nybc201856
+      notes:
+    - number: '8'
+      date:
+      first_page:
+      last_page:
+      source_db: nybc
+      source_db_id: nybc201857
+      notes:
+    - number: '9'
+      date:
+      first_page:
+      last_page:
+      source_db: nybc
+      source_db_id: nybc201858
+      notes:
+    - number: '10'
+      date:
+      first_page:
+      last_page:
+      source_db: nybc
+      source_db_id: nybc201859
+      notes:
+    - number: '11'
+      date:
+      first_page:
+      last_page:
+      source_db: nybc
+      source_db_id: nybc201854
       notes:
     notes:
   keywords:

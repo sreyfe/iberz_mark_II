@@ -24,7 +24,7 @@ padding: 20px;
 border-color: #32a852;
 margin: 5%;
 background-color: #fafcfb;
-min-width: 1200px;
+min-width: 1000px;
 }
 
 #info {
@@ -146,7 +146,7 @@ padding: 5px;
             <td style="font-weight: bold">Translator</td>
             <td>
               {% for translator in page.translator %}
-              {{translator.name_translit}}
+              {{translator.name_translit}}<br>
               {% endfor %}
             </td>
           </tr>

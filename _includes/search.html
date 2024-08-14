@@ -34,7 +34,7 @@
     border-collapse: collapse;
     table-layout: fixed;
     width: 100%;
-    min-width: 1200px;
+    min-width: 1000px;
   }
 
   table a:visited {
@@ -85,12 +85,28 @@
         threshold: 0.3
       })
       getSearch(fuse);
+
+      fuse_all = new Fuse(blooks.responseJSON, {
+        keys: [ 'id',
+                'title',
+                'translator',
+                'year',
+                'location',
+                'publisher',
+                'source_title',
+                'language',
+                'source_id',
+                'author'
+                ],
+        threshold: 1
+      })
+      getSearch(fuse);
     });
 
     function getSearch(){
       searchKey = document.getElementById("search").value;
       if (searchKey == ""){
-      tabulate(fuse.search("."))
+      tabulate(fuse.search("a"))
       }
     else{
 
